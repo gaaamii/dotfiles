@@ -54,16 +54,8 @@ NeoBundle 'moznion/hateblo.vim'
 NeoBundle 'tpope/vim-fireplace'
 NeoBundle 'tpope/vim-classpath'
 NeoBundle 'guns/vim-clojure-static'
-
-" TypeScript
-" NeoBundle 'Shougo/vimproc.vim', {
-"       \ 'build' : {
-"       \     'mac' : 'make -f make_mac.mak',
-"       \     'linux' : 'make',
-"       \    },
-"       \ }
-" NeoBundle 'Quramy/tsuquyomi'
-" NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'https://github.com/leafgarland/typescript-vim.git'
+NeoBundle 'https://github.com/clausreinke/typescript-tools.git'
 
 call neobundle#end()
 
