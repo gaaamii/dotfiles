@@ -54,8 +54,10 @@ NeoBundle 'moznion/hateblo.vim'
 NeoBundle 'tpope/vim-fireplace'
 NeoBundle 'tpope/vim-classpath'
 NeoBundle 'guns/vim-clojure-static'
+
+" TypeScript
 NeoBundle 'https://github.com/leafgarland/typescript-vim.git'
-NeoBundle 'https://github.com/clausreinke/typescript-tools.git'
+"NeoBundle 'https://github.com/clausreinke/typescript-tools.git'
 
 call neobundle#end()
 
