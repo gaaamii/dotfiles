@@ -10,6 +10,7 @@ set shiftwidth=2
 set expandtab
 set number
 set hlsearch
+set noswapfile
 
 if has('vim_starting')
   set nocompatible
