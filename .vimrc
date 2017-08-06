@@ -22,9 +22,9 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" file browser
+" navigate file
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Shougo/unite.vim'
+NeoBundle "ctrlpvim/ctrlp.vim"
 
 " frontend
 NeoBundle 'slim-template/vim-slim'
@@ -52,9 +52,10 @@ NeoBundle 'mattn/webapi-vim'
 NeoBundle 'moznion/hateblo.vim'
 
 " clojure
-NeoBundle 'tpope/vim-fireplace'
-NeoBundle 'tpope/vim-classpath'
-NeoBundle 'guns/vim-clojure-static'
+" 最近は使ってないのでコメントアウト
+" NeoBundle 'tpope/vim-fireplace'
+" NeoBundle 'tpope/vim-classpath'
+" NeoBundle 'guns/vim-clojure-static'
 
 " TypeScript
 NeoBundle 'https://github.com/leafgarland/typescript-vim.git'
