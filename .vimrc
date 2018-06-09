@@ -1,5 +1,3 @@
-" It's possible to search colorscheme here
-" http://cocopon.me/app/vim-color-gallery/
 colorscheme molokai
 
 " General settings
@@ -23,26 +21,26 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " navigate file
-NeoBundle 'scrooloose/nerdtree'
 NeoBundle "ctrlpvim/ctrlp.vim"
+
+let g:ctrlp_custom_ignore = 'public/packs\|vendor/bundle\|node_modules\|DS_Store\|git'
 
 " frontend
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 
-" internet
-NeoBundle 'tyru/open-browser.vim'
+" Elm
+NeoBundle 'elmcast/elm-vim'
 
 " syntax
 NeoBundle 'elzr/vim-json'
 
 " blog
 NeoBundle 'plasticboy/vim-markdown'
-NeoBundle 'kannokanno/previm'
-augroup PrevimSettings
-  autocmd!
-  autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
-augroup END
+
+" HTML Coding
+NeoBundle 'mattn/emmet-vim'
+
 autocmd! FileType markdown hi! def link markdownItalic Normal
 
 call neobundle#end()
