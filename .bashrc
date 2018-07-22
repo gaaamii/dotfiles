@@ -13,3 +13,7 @@ source ~/git-completion.bash
 # direnv
 export EDITOR=vim
 eval "$(direnv hook bash)"
+
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
