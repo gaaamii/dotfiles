@@ -8,10 +8,7 @@ alias dcer="docker-compose exec rails"
 eval "$(rbenv init -)"
 
 # git completion
-. ~/git-completion.bash
-. ~/git-prompt.sh
-export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\w$(__git_ps1 " (%s)")\$ '
+source ~/git-completion.bash
 
 # direnv
 export EDITOR=vim
