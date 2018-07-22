@@ -1,0 +1,6 @@
+brew 'rbenv'
+brew 'wget'
+brew 'tmux'
+brew 'reattach-to-user-namespace'
+brew 'direnv'
+brew 'tree'
